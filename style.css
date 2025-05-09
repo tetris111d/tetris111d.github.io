@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  margin: 10px 0;
+}
+#game {
+  display: none;
+}
+canvas {
+  border: 2px solid white;
+  background-color: #000;
+  image-rendering: pixelated;
+}
+.controls, .start-menu {
+  margin-top: 10px;
+}
+.controls button, .start-menu button {
+  padding: 15px 20px;
+  font-size: 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+}
+.controls button:active {
+  background: #0f0;
+}
+select {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+}
