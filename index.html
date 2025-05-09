@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tetris Mobile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tetris</h1>
+
+  <!-- Start Menu -->
+  <div class="start-menu" id="startMenu">
+    <p>Select Level:</p>
+    <select id="levelSelect">
+      <option value="1000">Easy</option>
+      <option value="700">Medium</option>
+      <option value="400">Hard</option>
+    </select><br>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <!-- Game Area -->
+  <div id="game">
+    <p>Score: <span id="score">0</span> | Level: <span id="level">1</span></p>
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <div class="controls">
+      <button onclick="move(-1)">◀</button>
+      <button onclick="rotate()">⟳</button>
+      <button onclick="move(1)">▶</button>
+      <button onclick="drop()">▼</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+                            </html>
